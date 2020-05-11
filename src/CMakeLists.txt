@@ -32,6 +32,7 @@ set(SRC
     BR/BRBase58.c
     BR/BRCrypto.c
     base58.c
+    base58_deprecated.c
     bitset.c
     ids_heap.c
     linkedhashtable.c

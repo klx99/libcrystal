@@ -73,6 +73,16 @@ char *base58_encode(const void *data, size_t len, char *text, size_t *textlen);
 CRYSTAL_API
 ssize_t base58_decode(const char *text, size_t textlen, void *data, size_t datalen);
 
+
+/*
+ * NOTIC: deprecated APIs
+ */
+CRYSTAL_API
+char *base58_encode_deprecated(const void *data, size_t len, char *text, size_t *textlen);
+
+CRYSTAL_API
+ssize_t base58_decode_deprecated(const char *text, size_t textlen, void *data, size_t datalen);
+
 #ifdef __cplusplus
 }
 #endif
